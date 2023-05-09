@@ -5,7 +5,3 @@ I am learning Python with the [FreeCodeCamp](https://www.freecodecamp.org/) cour
 ## Sciencifing Computing with Python
 - [x] Arithmetic Formatter (arithmetic_arranger.py)
 - [x] Time Calculator (time_calculator.py)
-
-
-
-
