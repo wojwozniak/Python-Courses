@@ -6,5 +6,5 @@ I am learning Python with the [FreeCodeCamp](https://www.freecodecamp.org/) cour
 - [x] Arithmetic Formatter (arithmetic_arranger.py)
 - [x] Time Calculator (time_calculator.py)
 - [x] Budget App (budget.py)
-- [] Polygon Area Calculator
+- [x] Polygon Area Calculator (shape_calculator.py)
 - [] Probability Calculator
