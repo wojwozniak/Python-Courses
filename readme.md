@@ -1,6 +1,6 @@
-# Python Course
+# Python Courses
 
-I am learning Python with the [FreeCodeCamp](https://www.freecodecamp.org/) course. Here I will be uploading my solutions to the tasks.
+I am learning Python with the [FreeCodeCamp](https://www.freecodecamp.org/) courses. Here I will be uploading my solutions to the tasks.
 Boilerplate code (tests) come from FCC, my solutions are in files listed below:
 
 ## Sciencifing Computing with Python
@@ -9,3 +9,10 @@ Boilerplate code (tests) come from FCC, my solutions are in files listed below:
 - [x] Budget App (budget.py)
 - [x] Polygon Area Calculator (shape_calculator.py)
 - [] Probability Calculator
+
+## Data Analysis with Python
+- [] Mean-Variance-Standard Deviation Calculator
+- [] Demographic Data Analyzer
+- [] Medical Data Visualizer
+- [] Page View Time Series Visualizer
+- [] Sea Level Predictor
