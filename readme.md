@@ -8,7 +8,7 @@ Boilerplate code (tests) come from FCC, my solutions are in files listed below:
 - [x] Time Calculator (time_calculator.py)
 - [x] Budget App (budget.py)
 - [x] Polygon Area Calculator (shape_calculator.py)
-- [x] Probability Calculator
+- [x] Probability Calculator (prob_calculator.py)
 
 Finished on 2023-05-12
 
