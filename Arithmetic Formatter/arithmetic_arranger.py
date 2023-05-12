@@ -1,13 +1,11 @@
 # Solution to first project of Scientific Computing with Python course on freecodecamp.org
 
 
-
-
-# Defining arithmetic_arranger as function taking two arguments: 
+# Defining arithmetic_arranger as function taking two arguments:
 # problems - array of strings representing arithmetic problems
 # *solve - optional boolean argument for printing solutions
 def arithmetic_arranger(problems, solve=False):
-    
+
     # Check if there are more than 5 problems
     if len(problems) > 5:
         return "Error: Too many problems."
@@ -54,8 +52,10 @@ def arithmetic_arranger(problems, solve=False):
 
     # If solve is True, add the results to the arranged problems
     if solve:
-        arranged_problems = "    ".join(top_nums) + "\n" + "    ".join(bottom_nums) + "\n" + "    ".join(lines) + "\n" + "    ".join(results)
+        arranged_problems = "    ".join(top_nums) + "\n" + "    ".join(
+            bottom_nums) + "\n" + "    ".join(lines) + "\n" + "    ".join(results)
     else:
-        arranged_problems = "    ".join(top_nums) + "\n" + "    ".join(bottom_nums) + "\n" + "    ".join(lines)
+        arranged_problems = "    ".join(
+            top_nums) + "\n" + "    ".join(bottom_nums) + "\n" + "    ".join(lines)
 
     return arranged_problems
