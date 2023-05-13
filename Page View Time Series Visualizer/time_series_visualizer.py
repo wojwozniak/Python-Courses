@@ -1,22 +1,29 @@
+# FCC Course: Scientific Computing with Python
+# Project: Time Series Visualizer
+# Author: Wojciech Woźniak
+# Work in progress
+
+
+# Imports
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 
+
 # Import data (Make sure to parse dates. Consider setting index column to 'date'.)
-df = None
+df = pd.read_csv('fcc-forum-pageviews.csv')
+df['date'] = pd.to_datetime(df['date'])
+df.set_index('date')
 
 # Clean data
-df = None
+df = df.loc[(df['value'] >= df['value'].quantile(0.025)) & (df['value'] <= df['value'].quantile(0.975))]
 
 
 def draw_line_plot():
     # Draw line plot
-
-
-
-
+    
 
     # Save image and return fig (don't change this part)
     fig.savefig('line_plot.png')
