@@ -1,10 +1,18 @@
+# FCC Course: Scientific Computing with Python
+# Project: Budget App
+# Author: Wojciech Woźniak
+# Date: 13.05.2023
+
+
+# Imports
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 # Import data
-df = None
+df = pd.read_csv('medical_examination.csv')
 
 # Add 'overweight' column
 df['overweight'] = None
