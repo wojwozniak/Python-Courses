@@ -13,7 +13,7 @@ Boilerplate code (tests) come from FCC, my solutions are in files listed below:
 Finished on 2023-05-12
 
 ## Data Analysis with Python
-- [] Mean-Variance-Standard Deviation Calculator
+- [x] Mean-Variance-Standard Deviation Calculator (mean_var_std.py)
 - [] Demographic Data Analyzer
 - [] Medical Data Visualizer
 - [] Page View Time Series Visualizer
