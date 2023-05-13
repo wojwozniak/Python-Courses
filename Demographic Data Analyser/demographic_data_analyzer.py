@@ -1,5 +1,5 @@
 # FCC Course: Scientific Computing with Python
-# Project: Budget App
+# Project: Demographic Data Analyser
 # Author: Wojciech Woźniak
 # Date: 13.05.2023
 
