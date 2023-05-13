@@ -1,5 +1,5 @@
 # FCC Course: Scientific Computing with Python
-# Project: Budget App
+# Project: Medical Data Visualizer
 # Author: Wojciech Woźniak
 # Date: 13.05.2023
 
