@@ -14,7 +14,7 @@ Finished on 2023-05-12
 
 ## Data Analysis with Python
 - [x] Mean-Variance-Standard Deviation Calculator (mean_var_std.py)
-- [] Demographic Data Analyzer
+- [x] Demographic Data Analyzer (demographic_data_analyzer.py)
 - [] Medical Data Visualizer
 - [] Page View Time Series Visualizer
 - [] Sea Level Predictor
