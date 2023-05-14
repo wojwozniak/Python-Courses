@@ -1,4 +1,7 @@
-# Solution to first project of Scientific Computing with Python course on freecodecamp.org
+# FCC Course: Scientific Computing with Python
+# Project: Arithmetic Formatter
+# Author: Wojciech Woźniak
+# Date: 10.05.2023
 
 
 # Defining arithmetic_arranger as function taking two arguments:

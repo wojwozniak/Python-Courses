@@ -1,5 +1,5 @@
 # FCC Course: Scientific Computing with Python
-# Project: Time Series Visualizer
+# Project: Page View Time Series Visualizer
 # Author: Wojciech Woźniak
 # Finished 14/05/2023
 

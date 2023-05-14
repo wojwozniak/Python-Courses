@@ -1,5 +1,5 @@
 # FCC Course: Scientific Computing with Python
-# Project: Polygon Area Calculator
+# Project: Probability Calculator
 # Author: Wojciech Woźniak
 # Date: 12.05.2023
 
