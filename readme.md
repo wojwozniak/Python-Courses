@@ -17,4 +17,4 @@ Finished on 2023-05-12
 - [x] Demographic Data Analyzer (demographic_data_analyzer.py)
 - [x] Medical Data Visualizer (medical_data_visualizer.py)
 - [x] Page View Time Series Visualizer
-- [] Sea Level Predictor
+- [x] Sea Level Predictor
