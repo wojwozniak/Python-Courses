@@ -18,8 +18,10 @@ df['date'] = pd.to_datetime(df['date'])
 df.set_index('date')
 
 # Clean data
-df = df.loc[(df['value'] >= df['value'].quantile(0.025)) &
-            (df['value'] <= df['value'].quantile(0.975))]
+df = df.loc[
+    (df['value'] >= df['value'].quantile(0.025)) &
+    (df['value'] <= df['value'].quantile(0.975))
+]
 
 
 def draw_line_plot():
