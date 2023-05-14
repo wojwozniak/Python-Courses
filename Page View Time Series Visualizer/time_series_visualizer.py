@@ -36,39 +36,10 @@ def draw_line_plot():
 
 
 def draw_bar_plot():
-    # Create a list of months in the correct order
-    month_order = ['January', 'February', 'March', 'April', 'May', 'June',
-                   'July', 'August', 'September', 'October', 'November', 'December']
-
     # Copy and modify data for monthly bar plot
-    df_bar = df.copy()
-    df_bar['year'] = df_bar['date'].dt.year
-    df_bar['month'] = df_bar['date'].dt.strftime('%B')
-    df_bar['month'] = pd.Categorical(
-        df_bar['month'], categories=month_order, ordered=True)  # set categorical variable
-    df_bar = pd.DataFrame(df_bar.groupby(
-        ['year', 'month'])['value'].mean().round())
-    df_bar = df_bar.rename(columns={"value": "Average Page Views"})
-    df_bar = df_bar.reset_index()
-
-    # Add missing data
-    missing_data = {
-        "year": [2016, 2016, 2016, 2016],
-        "month": ['January', 'February', 'March', 'April'],
-        "Average Page Views": [0, 0, 0, 0]
-    }
-    df_missing = pd.DataFrame(missing_data)
-    df_missing['month'] = pd.Categorical(
-        df_missing['month'], categories=month_order, ordered=True)  # set categorical variable
-    df_bar = pd.concat([df_missing, df_bar]).reset_index(drop=True)
+    df_bar = None
 
     # Draw bar plot
-    fig, ax = plt.subplots(figsize=(19.2, 10.8), dpi=100)
-    chart = sns.barplot(data=df_bar, x="year",
-                        y="Average Page Views", hue="month", palette="tab10")
-    chart.set_xticklabels(chart.get_xticklabels(),
-                          rotation=90, horizontalalignment='center')
-    ax.set_xlabel("Years")
 
     # Save image and return fig (don't change this part)
     fig.savefig('bar_plot.png')
@@ -83,22 +54,6 @@ def draw_box_plot():
     df_box['month'] = [d.strftime('%b') for d in df_box.date]
 
     # Draw box plots (using Seaborn)
-    fig, axes = plt.subplots(1, 2, figsize=(32, 10), dpi=100)
-
-    # Yearly boxplot
-    sns.boxplot(data=df_box, x="year", y="value", ax=axes[0])
-    axes[0].set_title("Year-wise Box Plot (Trend)")
-    axes[0].set_xlabel("Year")
-    axes[0].set_ylabel("Page Views")
-
-    # Monthly boxplot
-    month_order = ["Jan", "Feb", "Mar", "Apr", "May",
-                   "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-    sns.boxplot(data=df_box, x="month", y="value",
-                order=month_order, ax=axes[1])
-    axes[1].set_title("Month-wise Box Plot (Seasonality)")
-    axes[1].set_xlabel("Month")
-    axes[1].set_ylabel("Page Views")
 
     # Save image and return fig (don't change this part)
     fig.savefig('box_plot.png')
