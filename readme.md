@@ -16,5 +16,7 @@ Finished on 2023-05-12
 - [x] Mean-Variance-Standard Deviation Calculator (mean_var_std.py)
 - [x] Demographic Data Analyzer (demographic_data_analyzer.py)
 - [x] Medical Data Visualizer (medical_data_visualizer.py)
-- [x] Page View Time Series Visualizer
-- [x] Sea Level Predictor
+- [x] Page View Time Series Visualizer (time_series_visualizer.py)
+- [x] Sea Level Predictor (sea_level_predictor.py)
+
+Finished on 2023-05-14
